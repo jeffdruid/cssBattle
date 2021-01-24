@@ -1,0 +1,58 @@
+<div class='outer'></div>
+<div class='inner'></div>
+<div class='circle'></div>
+<div class='greyBx'></div>
+
+
+
+<style>
+  body{
+    background:#222730;
+    margin: 0;
+    padding:0;
+    position: relative;
+  }
+  
+  .outer{
+    position:absolute;
+    top:75px;
+    width:400px;
+    height:150px;
+    background:#4CAAB3;
+    z-index:-1;
+  }
+  
+  .greyBx{
+    position:absolute;
+    top:25px;
+    left:75px;
+    width:250px; 
+    height:250px;
+    background:#222730;
+    transform:rotate(45deg);
+    
+  }
+  
+  .inner{
+    position:absolute;
+    top:75px;
+    left:125px;
+    width:150px;
+    height:150px;
+    background:#4CAAB3;
+    transform:rotate(45deg);
+   z-index:1;
+   
+  }
+  .circle{
+    position:absolute;
+    top:125px;
+    left:175px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#393E46;
+    z-index:3;
+  }
+  
+  
