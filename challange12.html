@@ -1,0 +1,78 @@
+<div class="circle1 circle"></div>
+<div class="circle2 circle"></div>
+<div class="circle3 circle"></div>
+<div class="circleSmall1 small"></div>
+<div class="circleSmall2 small"></div>
+<div class="inner1 inner"></div>
+<div class="inner2 inner"></div>
+<div class="inner3 inner"></div>
+<style>
+	body {
+		background: #f5d6b4;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	.circle {
+		position: absolute;
+		top: 100px;
+		left: 50px;
+		width: 100px;
+		height: 50px;
+		background: #d86f45;
+		border-bottom-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+		z-index: -1;
+	}
+
+	.circle1 {
+		left: 150px;
+		transform: rotate(180deg);
+		z-index: -1;
+	}
+	.circle2 {
+		left: 70px;
+		top: 149px;
+	}
+	.circle3 {
+		left: 230px;
+		top: 149px;
+	}
+	.small {
+		position: absolute;
+		top: 140px;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: #d86f45;
+		z-index: 50;
+	}
+
+	.circleSmall1 {
+		left: 70px;
+	}
+
+	.circleSmall2 {
+		left: 310px;
+	}
+	.inner {
+		position: absolute;
+		top: 120px;
+		left: 250px;
+		width: 30px;
+		height: 30px;
+		background: #f5d6b4;
+		border-radius: 50%;
+		border: 15px solid #f5d6b4;
+		z-index: 100;
+	}
+	.inner1 {
+		left: 90px;
+	}
+	.inner2 {
+		left: 170px;
+	}
+	.inner3 {
+		left: 250px;
+	}
+</style>
