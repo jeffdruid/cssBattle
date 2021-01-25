@@ -1,0 +1,44 @@
+<div class="triangle-left triangle"></div>
+<div class="triangle-left2 triangle"></div>
+<div class="triangle-right triangle"></div>
+<div class="triangle-right2 triangle"></div>
+<style>
+	body {
+		background: #f2f2b6;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	.triangle {
+		position: absolute;
+		top: 85px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 75px 130px 75px;
+		border-color: transparent transparent #fd4602 transparent;
+	}
+	.triangle-left {
+		left: 170px;
+	}
+	.triangle-left2 {
+		left: 190px;
+		border-color: transparent transparent #ff6d00 transparent;
+		z-index: -1;
+	}
+
+	.triangle-right {
+		top: 52.5px;
+		left: 79px;
+		border-color: transparent transparent #ff6d00 transparent;
+		z-index: -1;
+		transform: rotate(60deg);
+	}
+
+	.triangle-right2 {
+		top: 52.5px;
+		left: 98.5px;
+		z-index: -2;
+		transform: rotate(60deg);
+	}
+</style>
