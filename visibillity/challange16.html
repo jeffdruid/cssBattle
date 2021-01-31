@@ -1,0 +1,66 @@
+<div class="circle2 circle"></div>
+<div class="circle3 circle"></div>
+<div class="circle4 circle"></div>
+<div class="triangle1 triangle"></div>
+<div class="triangle2 triangle"></div>
+
+<style>
+    body {
+        background: #0b2429;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .circle {
+        top: 50px;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        background: #998235;
+    }
+    
+    .circle3 {
+        top: 60px;
+        left: 110px;
+        width: 140px;
+        height: 140px;
+        background: #f3ac3c;
+        border: 20px solid #0b2429;
+        z-index: 1;
+    }
+    
+    .circle4 {
+        top: 125px;
+        left: 175px;
+        width: 50px;
+        height: 50px;
+        background: #0b2429;
+        z-index: 2;
+    }
+    
+    .triangle {
+        position: absolute;
+        top: 75px;
+        width: 0;
+        height: 0;
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent;
+    }
+    
+    .triangle1 {
+        left: 58px;
+        border-right: 75px solid #998235;
+    }
+    
+    .triangle2 {
+        left: 266px;
+        border-left: 75px solid #998235;
+    }
+</style>
