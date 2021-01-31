@@ -1,39 +1,39 @@
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
 
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
 
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle1"></div>
 </div>
-<div class="square">
+<div>
     <div class="circle2"></div>
 </div>
 
@@ -50,7 +50,7 @@
         grid-gap: 10px 0;
     }
     
-    .square {
+    div {
         position: relative;
         top: 0px;
         left: 0px;
@@ -60,7 +60,8 @@
         overflow: hidden;
     }
     
-    .circle1 {
+    .circle1,
+    .circle2 {
         position: absolute;
         top: 10;
         left: 10;
@@ -72,13 +73,6 @@
     }
     
     .circle2 {
-        position: absolute;
-        top: 10;
-        left: 10;
-        width: 80px;
-        height: 80px;
         background: #f5d6b4;
-        float: right;
-        border-radius: 100px 0px 0 0;
     }
 </style>
