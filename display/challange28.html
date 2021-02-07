@@ -1,0 +1,78 @@
+<div class="ball1 topRw"></div>
+<div class="cup1 bttmRw bRad"></div>
+<div class="ball2 topRw y"></div>
+<div class="cup2 bttmRw bRad y"></div>
+<div class="ball3 bttmRw"></div>
+<div class="cup3 topRw bRad y"></div>
+<div class="ball4 bttmRw y"></div>
+<div class="cup4 topRw bRad"></div>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+        background: #1a4341;
+    }
+    
+    div {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: #998235;
+        border-radius: 50%;
+    }
+    
+    .y {
+        background: #f3ac3c;
+    }
+    
+    .bRad {
+        border-radius: 0;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    
+    .topRw {
+        top: 90;
+    }
+    
+    .bttmRw {
+        top: 160;
+    }
+    
+    .ball1 {
+        left: 70;
+    }
+    
+    .ball2 {
+        left: 280;
+    }
+    
+    .ball3 {
+        left: 140;
+    }
+    
+    .ball4 {
+        left: 210;
+    }
+    
+    .cup1 {
+        left: 280;
+    }
+    
+    .cup2 {
+        left: 70;
+    }
+    
+    .cup3 {
+        left: 140;
+        transform: rotate(180deg);
+    }
+    
+    .cup4 {
+        left: 210;
+        transform: rotate(180deg);
+    }
+</style>
